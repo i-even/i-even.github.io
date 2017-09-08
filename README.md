@@ -1,67 +1,32 @@
-# Welcome to git-wiki demo
+# Adam Blog is a minimal clear theme for Jekyll
 
-This is a [demo](wiki/Demo.md) of git-wiki theme for jekyll.
+![Adam Blog - Imac](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-blog-imac.jpg?raw=true)
 
-it's a full featured wiki powered by git, github pages and pull-requests!
+## Demo
 
-It means: 
+Check the theme in action [Demo](https://artemsheludko.github.io/adam-blog/)
 
-* Improvements in the cooperative aspect: forks, pull-requests and roles.
-* You can customize your wiki as you want with style sheets and even changing the layout.
-* No databases! Only static files that can be downloaded in a few seconds.
-* Markdown and html mixed together!
-* History, revision comparison and everything you need from a wiki platform.
-* You can edit your pages with the standard git editor, prose.io (integrated) or any kind of editor you prefer.
+The main page would look like this:
 
-You can fork/copy the master branch now and start your wiki in just 1 minute.
+![Main page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-home-page.jpg?raw=true)
 
-Then [share your wiki with us!](wiki/Showreel.md) please.
+The post page would look like this:
 
-**Note:**
-You can even include the github wiki as a submodule and enable the conf, but it's an experimental feature and it implies less advantages and greater disadvantages for now.
+![Post page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-post-example.jpg?raw=true)
 
-## Installation instructions
+## Features
 
-1. Fork or copy [this repository](https://github.com/drassil/git-wiki)
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [MailChimp](https://mailchimp.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- [Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
-2. copy and rename _config.yml.dist in _config.yml changing settings inside
+## Installation:
 
-3. create your index.md in root directory
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-4. push your changes in your repository, then configure the github pages in your repository settings
+### License
 
-5. Your wiki is ready!
-
-**Note:**
-
-We suggest the creation of a /wiki/ subfolder that collects all your .md pages (except index.md)
-
-## Current known limitations
-
-* Non-existent wiki page links are not "[red](wiki/red.md)".
-
-* You can't use the wiki link format: [[example]]. Please, use gh-pages links instead: \[example\](example) 
-
-## Customization
-
-You can create following files in _includes folder to costumize git-wiki without patching original code:
-
-* head.html  -> this file will be included in <head> tag allowing you to add css/js and any kind of head tags
-* sidebar.html -> this file will be included in left sidebar allowing you to create your widgets
-* comments.html -> this is mostly used to integrate social comments under page contents
-* footer.html -> this file will be included in left side of the footer.
-
-## Looking for collaboration
-
-Do you like this project? then, contact us via [chat](https://gitter.im/Drassil/general?utm_source=share-link&utm_medium=link&utm_campaign=share-link) , <a href="mailto:staff-drassil@googlegroups.com">email</a>  or send us a PR to improve it.
-
-Thank you!
-
-## Components used
-
-- [jekyll-table-of-contents](https://github.com/ghiculescu/jekyll-table-of-contents)
-
-- [jQuery](https://jquery.com/)
-
-
-[MIT LICENSE](LICENSE)
+GNU General Public License v3.0
